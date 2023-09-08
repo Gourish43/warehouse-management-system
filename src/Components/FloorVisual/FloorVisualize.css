@@ -1,0 +1,218 @@
+.main_container {
+  width: 800px;
+  margin-left: 2px;
+  margin-top: 1px;
+  margin-top: -50px;
+}
+
+.boder {
+  border: 8px solid #070331;
+  margin-top: 20px;
+  width: 92vw;
+  height: 200vh;
+}
+
+.inner-partition {
+  margin-left: 0px;
+  border-bottom: 3px solid rgb(66, 173, 255);
+  margin-top: 1px;
+  width: 91vw;
+}
+
+.mid-partition {
+  margin-left: 0px;
+  max-width: 95vw;
+  border: 2px solid rgb(66, 173, 255);
+}
+
+.end-partition {
+  margin-left: 0px;
+  margin-top: 30px;
+  max-width: 95vw;
+  border: 2px solid rgb(66, 173, 255);
+}
+.AlignLeft {
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+}
+
+#a_seat .cell {
+  background-color: black;
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid black;
+}
+
+#b_seat .cell {
+  background-color: white;
+  border: 1px solid rgb(88, 189, 219);
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#s_seat .cell {
+  background-color: green;
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid black;
+}
+
+#h_seat .cell {
+  background-color: rgb(255, 8, 0);
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid black;
+}
+
+#m_seat .cell {
+  background-color: rgb(69, 66, 235);
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid black;
+}
+#e_seat .cell {
+  background-color: rgb(241, 147, 71);
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid black;
+}
+#c_seat .cell {
+  display: inline-block;
+  margin-right: 5px;
+  background-color: white;
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 5px,
+    rgb(66, 78, 184) 5px,
+    rgb(91, 91, 245) 8px
+  );
+  border: 1px solid black;
+}
+#d_seat .cell {
+  background-color: rgba(97, 34, 4, 0.705);
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid black;
+}
+#l_seat .cell {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.cardMargin {
+  margin-left: 60px;
+  margin-right: 40px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid rgb(66, 173, 255);
+  max-width: 82vw;
+  overflow: hidden;
+}
+.parent-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow the flex items to wrap */
+  margin-left: 60px;
+}
+.vertical-div1 {
+  width: 76vw;
+  height: 26vh;
+  background-color: #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.vertical-div2 {
+  width: 10vw;
+  height: 27vh;
+  background-color: #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.Separation-line {
+  border-top: 6px solid rgb(1, 95, 22);
+  display: flex;
+  flex-wrap: wrap; /* Allow the flex items to wrap */
+  margin-top: 20px;
+}
+
+.vertical-div3 {
+  width: 76vw;
+  height: 27vh;
+  margin-left: 60px;
+  background-color: #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+}
+.vertical-div4 {
+  width: 5vw;
+  height: 26vh;
+  background-color: #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+  margin-left: -12px;
+}
+.Separation-line2 {
+  border-top: 6px solid rgb(1, 95, 22);
+  display: flex;
+  flex-wrap: wrap; /* Allow the flex items to wrap */
+  margin-top: 60px;
+}
+.vertical-div5 {
+  width: 78vw;
+  height: 3vh;
+  margin-left: 84px;
+  background-color: #ffffff;
+  border: 2px solid rgb(31, 30, 30);
+  border-bottom: 2px solid rgb(1, 95, 22);
+  border-right: #ffffff;
+  padding-top: 1px;
+}
+.vertical-div6 {
+  width: 82vw;
+  height: 3vh;
+  margin-left: 60px;
+  background-color: #ffffff;
+  border: 2px solid rgb(31, 30, 30);
+  border-top: 2px solid rgb(1, 95, 22);
+  border-right: #ffffff;
+  padding-top: 1px;
+}
+.vertical-div7 {
+  width: 78vw;
+  height: 3vh;
+  margin-left: 84px;
+  background-color: #ffffff;
+  border: 2px solid rgb(31, 30, 30);
+  border-bottom: 2px solid rgb(1, 95, 22);
+  border-right: #ffffff;
+  padding-top: 1px;
+}
+
+.grid-container {
+  display: flex;
+  width: 95vw;
+}
+
+.grid-row {
+  display: flex;
+}
+
+.grid-item {
+  width: 22px; /* Account for the 2px spacing */
+  height: 46px;
+  border: 1px solid #0cd1df;
+  padding: 1px;
+  margin-right: 2px;
+}
+
+.block {
+  position: absolute;
+  width: 22px; /* Account for the 2px spacing */
+  height: 46px;
+  border: 1px solid #ccc;
+  background-color: blue;
+  margin-left: 160px;
+}
